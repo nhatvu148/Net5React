@@ -15,3 +15,10 @@
 - cd API && dotnet add reference ../Application/
 - cd Application && dotnet add reference ../Persistence/ && dotnet add reference ../Domain/
 - cd Persistence && dotnet add reference ../Domain/
+
+- cd API && dotnet run
+- dotnet watch run
+
+# VSCode:
+- Cmd + Shift + P --> .NET: Generate Assets for Build and Debug
+- Cmd + , --> Exclude **/bin and **/obj
