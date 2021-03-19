@@ -22,3 +22,4 @@
 # VSCode:
 - Cmd + Shift + P --> .NET: Generate Assets for Build and Debug
 - Cmd + , --> Exclude **/bin and **/obj
+- Cmd + P --> Look for files
