@@ -19,6 +19,12 @@
 - cd API && dotnet run
 - dotnet watch run
 
+- dotnet tool list --global
+- dotnet tool install --global dotnet-ef --version 5.0.4
+- dotnet tool update --global dotnet-ef --version 5.0.4
+- dotnet ef -h
+- dotnet ef migrations add IntialCreate -p Persistence/ -s API/
+
 # VSCode:
 - Cmd + Shift + P --> .NET: Generate Assets for Build and Debug
 - Cmd + , --> Exclude **/bin and **/obj
