@@ -25,6 +25,8 @@
 - dotnet ef -h
 - dotnet ef migrations add IntialCreate -p Persistence/ -s API/
 
+- dotnet ef database -h
+
 # VSCode:
 - Cmd + Shift + P --> .NET: Generate Assets for Build and Debug
 - Cmd + , --> Exclude **/bin and **/obj
