@@ -9,6 +9,7 @@ function App() {
   useEffect(()=>{
     (async () => {
       const response = await Axios.get("http://localhost:5000/api/activities");
+      console.log(response);
        setActivities(response.data);
     })();
   },[])
