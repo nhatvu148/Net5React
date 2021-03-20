@@ -27,6 +27,8 @@
 
 - dotnet ef database -h
 
+- dotnet new gitignore
+
 # VSCode:
 - Cmd + Shift + P --> .NET: Generate Assets for Build and Debug
 - Cmd + , --> Exclude **/bin and **/obj
